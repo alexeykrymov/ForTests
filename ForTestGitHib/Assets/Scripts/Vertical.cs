@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GG : MonoBehaviour
+public class Vertical : MonoBehaviour
 {
-    public float horizontal;
-
+    public float vertical;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,7 +14,7 @@ public class GG : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontal = Input.GetAxis("Horizontal");
-        Debug.Log(horizontal);
+        vertical = Input.GetAxis("Vertical");
+        print(vertical);
     }
 }
